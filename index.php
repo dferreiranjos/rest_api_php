@@ -15,13 +15,16 @@ $method = $_SERVER['REQUEST_METHOD'];
 
 $GLOBALS['secretJWT'] = '123456';
 
-// class
-require_once "classes/db.class.php";
-require_once "classes/jwt.class.php";
-require_once "classes/usuarios.class.php";
-// API
-require_once "api/usuarios/usuarios.php";
-require_once "api/clientes/clientes.php";
+require_once "classes/autoload.class.php";
+new Autoload();
+
+// // class
+// require_once "classes/db.class.php";
+// require_once "classes/jwt.class.php";
+// require_once "classes/usuarios.class.php";
+// // API
+// require_once "api/usuarios/usuarios.php";
+// require_once "api/clientes/clientes.php";
 
 
 

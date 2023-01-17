@@ -2,8 +2,15 @@
 
 class Usuarios
 {
+
+    public function __construct()
+    {
+        var_dump("Classe Usuários instanciada");
+    }
+
     public function login()
     {
+
         if ($_POST) {
             if (!$_POST['login'] OR !$_POST['senha']) {
                 echo json_encode(['ERRO' => 'Falta informacoes!']); exit; 
