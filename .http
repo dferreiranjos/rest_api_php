@@ -7,18 +7,35 @@ login=daniel
 ###
 
 GET http://localhost/rest_api_php/clientes/listar HTTP/1.1
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEiLCJuYW1lIjoiTmV0byBDb3N0YSIsImV4cGlyZXNfaW4iOjE2NjA3ODA1NDJ9.Edxlul7P7qOfWZvwOFS5OY4-1e_XgsEsI4kPcpSzxAg
+authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEiLCJuYW1lIjoiRGFuaWVsIEFuam9zIiwiZXhwaXJlc19pbiI6MTY3NDA0MzM0MH0.F6kC2DR8vWwA_Qdg8dPj42qX-hCgwahR8hcBM6NIEmI
 
 ###
 
-GET http://localhost/rest_api_php/clientes/listar/55 HTTP/1.1
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEiLCJuYW1lIjoiTmV0byBDb3N0YSIsImV4cGlyZXNfaW4iOjE2NjA3Nzg5MTZ9.2uMUQaWPaZ0fZGEuRgyyNhv5oM2m-jxCXUOsslqwI9w
+GET http://localhost/rest_api_php/clientes/listar/1 HTTP/1.1
+authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEiLCJuYW1lIjoiRGFuaWVsIEFuam9zIiwiZXhwaXJlc19pbiI6MTY3NDA0MzM0MH0.F6kC2DR8vWwA_Qdg8dPj42qX-hCgwahR8hcBM6NIEmI
 
 ###
 
 POST http://localhost/rest_api_php/clientes/atualizar/1 HTTP/1.1
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEiLCJuYW1lIjoiTmV0byBDb3N0YSIsImV4cGlyZXNfaW4iOjE2NjA3ODA1NDJ9.Edxlul7P7qOfWZvwOFS5OY4-1e_XgsEsI4kPcpSzxAg
+authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEiLCJuYW1lIjoiRGFuaWVsIEFuam9zIiwiZXhwaXJlc19pbiI6MTY3NDA0MzM0MH0.F6kC2DR8vWwA_Qdg8dPj42qX-hCgwahR8hcBM6NIEmI
 Content-Type: application/x-www-form-urlencoded
 
 _method=PUT
-&nome=Costa Neto
+&nome=Ana Luiza Ferreira
+
+# POST http://localhost/rest_api_php/usuarios/login HTTP/1.1
+
+# ###
+
+# GET http://localhost/rest_api_php/clientes/lista HTTP/1.1
+
+# ###
+
+# GET http://localhost/rest_api_php/clientes/lista/5 HTTP/1.1
+
+# ###
+
+# POST http://localhost/rest_api_php/clientes/atualizar/5 HTTP/1.1
+# Content-Type: application/x-www-form-urlencoded
+
+# _method=PUT

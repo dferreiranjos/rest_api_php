@@ -69,6 +69,8 @@ class Clientes
 
     public function atualizar($param)
     {
+
+        var_dump($param);
         array_shift($_POST);
 
         $sql = "UPDATE clientes SET ";
